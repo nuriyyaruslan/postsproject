@@ -14,7 +14,7 @@ import {
 
 import {
   fetchComments,
-} from "../store/postsSlice";
+} from "../store/postsApi";
 
 const Comments = ({ postId }) => {
   const dispatch = useDispatch();

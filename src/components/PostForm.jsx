@@ -15,7 +15,7 @@ import {
   createPost,
   fetchPostById,
   updatePost,
-} from "../store/postsSlice";
+} from "../store/postsApi";
 
 const PostForm = ({ editId, onSuccess }) => {
   const dispatch = useDispatch();

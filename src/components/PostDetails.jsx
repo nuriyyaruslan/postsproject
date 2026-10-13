@@ -8,7 +8,7 @@ import {
 
 import { useDispatch, useSelector } from "react-redux";
 
-import { fetchPostById } from "../store/postsSlice";
+import { fetchPostById } from "../store/postsApi";
 
 const PostDetails = ({ postId }) => {
   const dispatch = useDispatch();

@@ -16,7 +16,7 @@ import { useDispatch, useSelector } from "react-redux";
 import {
     deletePost,
     fetchPosts,
-} from "../store/postsSlice";
+} from "../store/postsApi";
 
 const PostList = ({ onEdit, onDetails }) => {
     const dispatch = useDispatch();
